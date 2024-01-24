@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="weather container">
+            <div class="left-info">
+                <div class="left-info-img"></div>
+                <div class="today-info">
+                    <h1 class="today-info-title"></h1>
+                    <h2 class="date"></h2>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h1 class="text-location" id="city"></h1>
+                    </div>
+                </div>
+                <div class="today-weather">
+                    <i class="fa-solid fa-sun"></i>
+                    <h1 class="temp" id="temp"></h1>
+                    <p>Sunny</p>
+                </div>
+            </div>
+            <div class="right-info">
+                <ul class="day-info">
+                    <li class="day__info-item">
+                        <h1 class="title">feels like</h1>
+                        <h2 class="number" id="feelsLike"></h2>
+                    </li>
+                    <li class="day__info-item">
+                        <h1 class="title">humidity</h1>
+                        <h2 class="number" id="humidity"></h2>
+                    </li>
+                    <li class="day__info-item">
+                        <h1 class="title">wind speed</h1>
+                        <h2 class="number" id="wind"></h2>
+                    </li>
+                </ul>
+                <input type="text" class="location-btn" placeholder="Search city">
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
